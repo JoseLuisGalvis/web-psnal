@@ -6,15 +6,15 @@
 }
 
 .about {
-    background-image: url(../../core/img/about-bg2.jpeg);
+    background-image: url(../../core/img/inicio-bg.jpeg);
 }
 
 .portfolio {
-    background-image: url(../../core/img/portfolio-bg.jpeg);
+    background-image: url(../../core/img/inicio-bg.jpeg);
 }
 
 .contact {
-    background-image: url(../../core/img/contact-bg.png);
+    background-image: url(../../core/img/inicio-bg.jpeg);
 }
 
 .imagen-fondo {
@@ -26,10 +26,24 @@
 }
 
 .img-perfil {
-    width: 60%;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    width: 10%;
     border-radius: 50%;
+    z-index: 1;
 }
 
+.fw-lighter {
+    width: 100%;
+    display: flex;
+    text-align: justify;
+}
+
+.fw-lighter h1 {
+    width: 90%;
+    font-weight: lighter!important;
+}
 .titulos {
     color: antiquewhite;
     display: flex;
@@ -145,4 +159,38 @@
     margin-top: 5px;
     font-size: 16px;
     color: #033F62;
+}
+
+/**********************************************/
+
+#contacto {
+    display: flex;
+}
+
+.col-lg-8 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.p-md-5 {
+    padding: 1rem 1rem 0.5rem 1rem!important;
+}
+
+.contacto_parrafo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2em;
+    font-size: 1.5em;
+}
+
+.contacto_info {
+    width: 50%;
+    padding: 0 2em;
+    font-size: 1.5em;
+}
+
+.mx-auto {
+    margin-right: 0!important;
+    margin-left: 0!important;
 }
