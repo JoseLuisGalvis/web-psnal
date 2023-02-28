@@ -19,7 +19,7 @@ class Course(models.Model):
 
 class Skill(models.Model):
     title = models.CharField(max_length=255, verbose_name = 'Titulo')
-    image = models.ImageField(upload_to='imgSkills/', blank=True, null=True, verbose_name = 'Imagen')
+    image = models.ImageField(upload_to='images/', blank=True, null=True, verbose_name = 'Imagen')
     created = models.DateTimeField(auto_now_add= True, verbose_name = 'Fecha Creación')
     updated = models.DateTimeField(auto_now= True, verbose_name = 'Fecha Edición')
     

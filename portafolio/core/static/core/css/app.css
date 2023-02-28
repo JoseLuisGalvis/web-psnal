@@ -27,7 +27,7 @@
 
 .img-perfil {
     position: absolute;
-    top: 5%;
+    top: 12%;
     left: 80%;
     width: 10%;
     border-radius: 50%;
@@ -38,12 +38,10 @@
     width: 100%;
     display: flex;
     text-align: justify;
+    font-size: 1.75em;
+    padding: 0.6em;
 }
 
-.fw-lighter h1 {
-    width: 90%;
-    font-weight: lighter!important;
-}
 .titulos {
     color: antiquewhite;
     display: flex;
@@ -187,7 +185,7 @@
 .contacto_info {
     width: 50%;
     padding: 0 2em;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .mx-auto {
